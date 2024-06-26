@@ -1,0 +1,55 @@
+.transition {
+    transition: .2s;
+}
+
+.cambiarColorDisabled {
+    fill: #676869 !important; 
+    border-radius: 100px !important;
+}
+
+.textOscuro {
+    fill: #645e5c !important;
+    stroke: #645e5c !important;
+}
+
+
+.cambiarColorAuditorio {
+    fill: #1b63c0 !important;
+    stroke: #1b63c0 !important;
+}
+
+.cambiarColorRehabilitacion {
+    fill: #d6a800 !important;
+    stroke: #d6a800 !important;
+}
+.cambiarColorPnac {
+    fill: #531370 !important;
+    stroke: #531370 !important;
+}
+.cambiarColorFarmacia {
+    fill: #e06b05 !important;
+    stroke: #e06b05 !important;  
+}
+.cambiarColorSecAzul {
+    fill: #00669c !important;
+    stroke: #00669c !important;  
+}
+.cambiarColorSecVerde {
+    fill: #679e1a !important;
+    stroke: #679e1a !important;   
+}
+.cambiarColorSecAmarillo {
+    fill: #da9305 !important;
+    stroke: #da9305 !important;    
+}
+.cambiarColorHosp {
+    fill: #008183 !important;
+    stroke: #008183 !important;    
+}
+.cambiarColorUrgencia {
+    fill: #a50309 !important;
+    stroke: #a50309 !important;
+}
+
+
+

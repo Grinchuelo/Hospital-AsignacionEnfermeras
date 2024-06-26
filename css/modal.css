@@ -1,0 +1,137 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 4rem;
+    background: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal--show {
+    opacity: 1;
+    pointer-events: unset;
+    transition: .2s;
+}
+
+.modal_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_container .sector, .formulario {
+    height: 100%;
+    margin-right: 10px;
+}
+.form_padding {
+    padding: 1rem;      
+}
+.modal_container .sector {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal_container .sector span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.modal_container .sector span embed {
+    margin: auto;
+    height: 100%;
+    max-width: 100%;
+}
+.modal_container .formulario {
+    width: 45%;
+    background: #e7e7e788;
+    border-radius: 5px;
+}
+.modal_container .formulario h3 {
+    color: #e0e0e0;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.modal_container .formulario form {
+    display: flex;
+    flex-direction: column;
+}
+.modalTitle_container {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0171bb;
+    border-top-left-radius: 5px;   
+    border-top-right-radius: 5px;
+}
+#selectEnfermera {
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: .5rem;
+    outline: none;
+}
+.formElement {
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+label {
+    color: #f1f1f1;
+}
+input {
+    width: 60%;
+    height: 2.5rem;
+    padding-left: .5rem;
+    font-size: 1.1rem;
+    outline: none;
+    border-radius: 5px;
+}
+input:disabled {
+    background-color: #dadada;
+}
+
+button {
+    width: 100%;
+    height: 2.4rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #0171bb;
+    color: #e0e0e0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover {
+    background: #0489e2;
+}
+
+.modal .btn_cerrar i {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    color: #f0f8ff;
+    cursor: pointer;
+    transition: color .3s;
+}
+.modal .btn_cerrar i:hover {
+    color: #d0d7dd;
+}
+.modal .btn_cerrar i:active {
+    color: #a8afb6;
+}
+
+hr {
+    margin-top: .8rem;
+}

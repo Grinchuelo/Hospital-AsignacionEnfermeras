@@ -53,16 +53,3 @@ text {
     cursor: default;
 }
 
-.transition {
-    transition: .2s;
-}
-
-.cambiarColor {
-    fill: #676869 !important; 
-    border-radius: 100px !important;
-}
-
-#tspan31 {
-    fill: #555457;
-    stroke: #555457;
-}

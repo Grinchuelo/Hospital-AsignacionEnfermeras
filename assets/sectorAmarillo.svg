@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.373001mm"
+   height="96.793915mm"
+   viewBox="0 0 87.372922 96.79393"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="sectorAmarillo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.36285714"
+     inkscape:cx="146.06299"
+     inkscape:cy="230.11811"
+     inkscape:window-width="1024"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="sectorAmarillo" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-66.08967,-87.347919)">
+    <g
+       id="sectorAmarillo"
+       transform="matrix(1.8736152,0,0,1.8736152,-272.75817,-301.67858)"
+       style="fill:#fcaf16;fill-opacity:1">
+      <path
+         style="fill:#fcaf16;fill-opacity:1;stroke:#fcaf16;stroke-width:0.264999;stroke-opacity:0.74902"
+         d="m 180.98487,207.83398 v 51.32917 h 29.2044 l 0.0935,-42.0726 17.06933,-0.12094 -0.075,-9.20277 z"
+         id="path18"
+         sodipodi:nodetypes="ccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.99723px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#575858;fill-opacity:1;stroke:#575858;stroke-width:0.264999;stroke-opacity:1"
+         x="183.62227"
+         y="231.29819"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           class="textOscuro"
+           style="fill:#575858;fill-opacity:1;stroke:#575858;stroke-width:0.265;stroke-opacity:1"
+           x="183.62227"
+           y="231.29819">Sector</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#575858;fill-opacity:1;stroke:#575858;stroke-width:0.265;stroke-opacity:1"
+           x="183.62227"
+           y="238.79472"
+           id="tspan20"
+           class="textOscuro">Amarillo</tspan><tspan
+           sodipodi:role="line"
+           style="font-family:system-ui;font-size:3;font-weight:lighter;pointer-events:none;fill:#575858;fill-opacity:1;stroke:#575858;stroke-width:0.265;stroke-opacity:1"
+           x="183.62227"
+           y="245.79472"
+           id="tspan80"
+           class="textOscuro">No hay enfermeras</tspan></text>
+    </g>
+  </g>
+</svg>
+
