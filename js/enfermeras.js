@@ -64,13 +64,13 @@ const enfermeras = [
         "dni": "42.654.987",
         "address": "Montevideo 400",
         "index": 10
-    }
-    /*
+    },
     {
-        "nombre": "ada",
+        "nombre": "",
         "dni": "",
-        "address": ""
-    }*/
+        "address": "",
+        "index": 11
+    }
 ]
 
 const inputNombre = document.getElementById('nombre');

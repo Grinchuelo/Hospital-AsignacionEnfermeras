@@ -207,24 +207,3 @@ document.addEventListener('DOMContentLoaded', () => {
     urgencia.addEventListener('mouseout', () => {
         urgencia.classList.remove('cambiarColorUrgencia')
     })
-
-
-    sectoresDisabled.forEach((sector) => {
-        if (sector) {
-            sector.addEventListener('mouseover', () => {
-                sector.classList.add('cambiarColorDisabled');
-            })
-            sector.addEventListener('mouseout', () => {
-                sector.classList.remove('cambiarColorDisabled');
-            })
-        }     
-    })
-
-   
-
-    
-    
-    /* const square = document.getElementById('tspan3-0');
-    square.addEventListener('mouseover', () => {
-        square.textContent = square.textContent + " 1";
-    }) */
