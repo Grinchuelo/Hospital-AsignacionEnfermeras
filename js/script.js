@@ -28,6 +28,8 @@ const sectorAmarillo = document.getElementById('sectorAmarillo');
 const hospitalizacion = document.getElementById('hospitalizacion');
 const urgencia = document.getElementById('urgencia');
 
+// Sectores con posibilidad de tener 2 enfermeras asignadas
+const tspanHosp = document.getElementById('tspan21');
 // Lista de rutas 
 const sectorAzulRoot = "assets/sectorAzul.svg";
 const sectorVerdeRoot = "assets/sectorVerde.svg";
@@ -86,15 +88,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                     }
                 } else {
-                    inputNombre.value = '';
-                    inputDni.value = '';
-                    inputDireccion.value = '';
-
                     if (svgDoc) {
                         const tspan = svgDoc.getElementById('tspan80');
                         if (tspan) {
                             tspan.textContent = "No hay enfermeras";
-                        }
+                        } 
                     }
                 }
             });
@@ -105,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let selectedEnfermera = enfermeras[select.selectedIndex];
                 let sectorId = svg.getAttribute('src');
                 asignacionesEnfermeras[sectorId] = selectedEnfermera;
-                savedEnfermera[index] = asignacionesEnfermeras[index];
+                //savedEnfermera[index] = asignacionesEnfermeras[index];
 
                 const svgDoc = svg.getSVGDocument();
                 if (svgDoc) {
@@ -114,6 +112,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         tspan.textContent = selectedEnfermera.nombre;
                     }
                 }
+
+                tspanHosp.classList.add('sectorOcupado');
             });
             const form = document.getElementById('form');
                 close_modal.addEventListener('click', () => {

@@ -53,3 +53,13 @@ text {
     cursor: default;
 }
 
+.sectorOcupado {
+    fill: #01ad5d;
+    stroke: #01ad5d;
+    background-color: #555457;
+}
+
+.tspanFondo {
+    background-color: #555457;
+}
+
